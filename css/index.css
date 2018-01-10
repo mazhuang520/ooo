@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ li {
+ 	list-style: none;
+ }
+ input,button{
+	font-family:inherit;
+	font-size:inherit;
+	font-style:inherit;
+	font-weight:inherit;
+	background:none;    
+    outline:none;    
+    border:0px;
+}
+input{
+ 	width: 80%;
+ 	float: left;
+ 	height: 40px;
+ 	margin-top: 20px;
+ 	border: 1px solid silver;
+ 	border-radius:8px ;
+ }
+ button{
+ 	margin-top: 20px;
+ 	width: 30%;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	border-radius:8px ;
+ 	border: 0px;
+ 	background-color: silver;
+ }
+#boxs {
+ 	width: 400px;
+ 	margin: 0 auto;
+ }
+ 
+ #boxs ul {
+ 	position: relative;
+ 	overflow: hidden;
+ 	/*清除子元素浮动的影响*/
+ }
+ 
+ #boxs ul li {
+ 	float: left;
+ 	margin-right: 15px;
+ 	width: 60px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	/*border: 1px solid gainsboro;*/
+ 	border-bottom: none;
+ 	cursor: pointer;
+ }
+ 
+ #boxs div {
+ 	display: none;
+ 	width: 400px;
+ 	height: 200px;
+ 	color: blue;
+ }
+ 
+ #boxs ul li.select {
+ 	border-bottom: 2px solid skyblue;
+ }
+ 
+ #boxs div.select {
+ 	display: block;
+ }
+ #img{
+ 	border: none;
+ }
+#box{
+	width: 100px;
+	height: 100px;
+	/*background-color: salmon;*/
+	margin-top: 20px;
+}
+#box>img{
+	width: 100px;
+	height: 100px;
+}
